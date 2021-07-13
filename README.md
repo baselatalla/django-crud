@@ -1,4 +1,4 @@
-# LAB 27: Django Models
+# LAB 28: Django CRUD
 
 ## Problem Domain:
 
