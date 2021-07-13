@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <h2> Welcome to Snacks App </h2>
+    <br> <br>
+    <h3>Title :  {{ snack.title  }}</h3>
+    <h3>Description:  {{ snack.description }}</h3>
+    <h3>Purchaser: {{ snack.purchaser }}</h3>
+
+    <button><a href="{% url 'Snack_update' snack.pk %}">Update</a> </button>
+    <button><a href="{% url 'Snack_delete' snack.pk %}">Delete</a> </button>
+
+{% endblock content %}
